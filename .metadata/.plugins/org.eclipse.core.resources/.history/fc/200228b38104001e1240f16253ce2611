@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+*{
+	font-family: monospace;
+	font-size: x-large;
+	background-color: rgba(185, 191, 194, 0.56);
+}
+
+#fr{
+	background-color: yellow;
+	font-family: monospace;
+	border: inset black 4px;
+	padding-top: 50px;
+	font-weight: bold;
+	
+	margin-top: 5px;
+	margin-bottom: 10px;
+	}
+	
+a { 
+	text-align: center;
+	text-decoration: none; 
+	border-bottom:1px solid red;
+	
+ }

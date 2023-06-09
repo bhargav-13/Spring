@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+*{
+	font-family: monospace;
+	font-size: xx-large;
+}
+
+#fr{
+	background-color: yellow;
+	font-family: monospace;
+	border: inset black 4px;
+	padding-top: 50px;
+	}

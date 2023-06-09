@@ -1,0 +1,21 @@
+package com.bo;
+
+import com.bean.Student;
+import com.dao.StudentDao;
+
+public class SturdentBo {
+
+	private StudentDao studentDao;
+
+	public StudentDao getStudentDao() {
+		return studentDao;
+	}
+
+	public void setStudentDao(StudentDao studentDao) {
+		this.studentDao = studentDao;
+	}
+	
+	public void insertStudent(Student s) {
+		this.studentDao.inserStudent(s);
+	}
+}

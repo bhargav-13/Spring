@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringMVC"/>
+<aop-project name="com.SpringScope"/>
+<aop-project name="com.SpringCollection"/>
+<aop-project name="com.SpringORM"/>
+<aop-project name="CRUD"/>
+<aop-project name="com.SpringDibyConstructor"/>
+<aop-project name="com.HelloSpring"/>
+<aop-project name="ProjectRestaurant"/>
+</aop-reference-model>

@@ -1,0 +1,33 @@
+package com.dao;
+
+import javax.transaction.Transactional;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+
+import com.bean.Student;
+
+public class StudentDao{
+	
+	private HibernateTemplate hibernatetemplete;
+	
+	
+	
+	public HibernateTemplate getHibernatetemplete() {
+		return hibernatetemplete;
+	}
+
+
+
+	public void setHibernatetemplete(HibernateTemplate hibernatetemplete) {
+		this.hibernatetemplete = hibernatetemplete;
+	}
+
+
+
+	@Transactional
+	public void inserStudent(Student s) {
+		getHibernateTemplate().save(s);
+	}
+	
+}

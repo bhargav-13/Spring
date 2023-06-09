@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<%@include file="./base.jsp" %>
+</head>
+<body>
+
+<div class="container mt-3">
+	<h1>insert form</h1>
+
+    <form action="handle-product" name="insert" method="post">
+        <table>
+            <tr>
+                <td>Product Name</td>
+                <td><input name="name" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Product Description</td>
+                <td> <textarea rows="25" cols="50" placeholder="Enter Product Description" name="desc"></textarea> </td>
+            </tr>
+
+            <tr>
+                <td>product Price</td>
+                <td> <input type="text" name="price"> </td>
+            </tr>
+
+            <tr >
+                <td><button  id="t1" type="submit" name="action" value="add">Add</button></td>
+            </tr>
+        </table>
+    </form>
+    <a href="show.jsp"> Add more</a>
+    <a href="${pageContext.request.contextPath }/" >Back</a>
+    
+</div>
+</body>
+</html>

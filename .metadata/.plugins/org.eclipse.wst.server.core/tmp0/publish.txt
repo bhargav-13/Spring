@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Fri Jun 09 10:53:58 IST 2023
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\bharg\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-el\\9.0.48\\tomcat-embed-el-9.0.48.jar=WEB-INF/lib/tomcat-embed-el-9.0.48.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\bharg\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-websocket\\9.0.48\\tomcat-embed-websocket-9.0.48.jar=WEB-INF/lib/tomcat-embed-websocket-9.0.48.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\bharg\\.m2\\repository\\org\\springframework\\spring-web\\5.1.0.RELEASE\\spring-web-5.1.0.RELEASE.jar=WEB-INF/lib/spring-web-5.1.0.RELEASE.jar

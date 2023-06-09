@@ -1,0 +1,6 @@
+@charset "ISO-8859-1";
+
+#fr{
+	background-color: yellow;
+	border-bottom: 5px;
+	}
